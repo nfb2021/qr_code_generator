@@ -28,7 +28,7 @@ QRGenerator(
 # GitHub repo
 QRGenerator(
     data="https://github.com/nfb2021/qr_code_generator",
-    filename="output/github_repo.png",
+    filename="assets/github_repo.png",
     size=1400,
     qr_color="#e1e6b9",
     qr_color2="#375d3b",

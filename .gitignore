@@ -18,6 +18,7 @@ assets/*
 !assets/linkedin_logo.png
 !assets/github_icon_dark.webp
 !assets/github_icon_white.png
+!assets/github_repo.png
 
 
 # macOS

@@ -1,6 +1,6 @@
 # QR Code Generator
 
-[![GitHub](assets/github_icon_dark.webp)](https://github.com/nfb2021/qr_code_generator)
+[![GitHub repo QR code](assets/github_repo.png)](https://github.com/nfb2021/qr_code_generator)
 
 Generate high-resolution custom QR codes with circular dot styling and optional center logos.
 
