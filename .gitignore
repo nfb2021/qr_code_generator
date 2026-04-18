@@ -16,6 +16,9 @@ output/
 assets/*
 !assets/youtube_logo.png
 !assets/linkedin_logo.png
+!assets/github_icon_dark.webp
+!assets/github_icon_white.png
+
 
 # macOS
 .DS_Store

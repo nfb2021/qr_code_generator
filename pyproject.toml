@@ -8,3 +8,50 @@ dependencies = [
     "qrcode[pil]>=8.0",
     "Pillow>=11.0",
 ]
+
+
+[build-system]
+requires = ["uv_build>=0.5.21"]
+build-backend = "uv_build"
+
+# ---------------------------------------------------------------------------
+# Ruff
+# ---------------------------------------------------------------------------
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "N",   # pep8-naming
+    "D",   # pydocstyle (numpy convention, see below)
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "SIM", # flake8-simplify
+    "ANN", # flake8-annotations
+    "RUF", # ruff-specific rules
+]
+ignore = [
+    "ANN401", # allow Any in type hints
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.per-file-ignores]
+"generate.py" = ["D", "ANN"]  # script — no docstrings or annotation requirements
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+# ---------------------------------------------------------------------------
+# ty
+# ---------------------------------------------------------------------------
+[tool.ty.environment]
+python-version = "3.13"
+root = ["src"]
