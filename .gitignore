@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Output directory (generated QR codes)
+output/
+
+# Assets — ignore everything except tracked logos
+assets/*
+!assets/youtube_logo.png
+!assets/linkedin_logo.png
+
+# macOS
+.DS_Store
+.claude

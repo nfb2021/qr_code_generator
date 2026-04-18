@@ -1,0 +1,10 @@
+[project]
+name = "qr-code-generator"
+version = "0.1.0"
+description = "Generate high-resolution custom QR codes with dot styling and center logos"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "qrcode[pil]>=8.0",
+    "Pillow>=11.0",
+]
